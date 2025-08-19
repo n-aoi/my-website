@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>シンプルなWebサイト</title>
+  <style>
+    /* 基本のスタイル */
+    body {
+      margin: 0;
+      font-family: Monotype Corsiva;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #008080;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+
+    main {
+      flex: 1;
+      padding: 2em;
+      background-color: #f9f9f9;
+    }
+
+    footer {
+      background-color: #808080;
+      color: white;
+      padding: 1em;
+      text-align: center;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+
+    footer a {
+      color: #9fd4ff;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Web Site</h1>
+  </header>
+
+  <main>
+    <h2>サービス紹介</h2>
+    <p>当社のサービス内容をご紹介します。</p>
+
+    <h2>基本情報</h2>
+    <p>私たちの会社についての情報はこちらです。</p>
+  </main>
+
+  <footer>
+    <p>連絡先: info@example.com</p>
+    <p>
+      <a href="https://twitter.com" target="_blank">Twitter</a> | 
+      <a href="https://instagram.com" target="_blank">Instagram</a>
+    </p>
+  </footer>
+</body>
+</html>
